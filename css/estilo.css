@@ -1,0 +1,121 @@
+/* SELECTOR */
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.jpg?w=996&t=st=1668126935~exp=1668127535~hmac=e850e09d1353370cd0564a2856d4e602cfcb3891b96857912e10e963b74025cb);
+    background-attachment: fixed;
+    background-position: center
+    
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    
+}
+
+
+
+.nav-link{
+    color: white;
+    margin-left: 10px;
+}
+
+
+/* ELIMINO ITEM DE LISTA */
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+.servicios {
+    width: 300px;
+}
+
+/* Novedades */
+.imgProducto {
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.imgAuto{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    
+}
+ .main-index {
+    width: 380px;
+    align-items: center;
+ }
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+} 
+
+.parrafo {
+    font-size: 25px;
+    text-decoration: solid;
+}
+
+.cajacontacto {
+    background-color: gray;
+    padding: 15px;
+    margin: 50px;
+    width: 50%;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombreProducto {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-decoration: underline;
+}
+
+.parrafoContacto {
+    text-align: center;
+    font-size: 1.2rem ;
+    margin: 10px 8px 15px 8px;
+    color: white;
+}
+
+.carousel-item{
+    height: 480px;
+    width: 480px;
+}
+
+.contenedorMain {
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    margin: 50px;
+    width: 90%;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.carousel-item{
+    width: 600px;
+	height: 600px;
+	margin-inline-start: 250px;
+		
+}
+
