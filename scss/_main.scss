@@ -1,0 +1,28 @@
+@mixin anclas{
+    color: $color-fuentes;
+    font-size: 4rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.titulo{
+    @include anclas;
+}
+
+.subtitulo{
+    @include anclas;
+    i {
+        border: 1px solid green;
+    }
+
+    .parrafo{
+        font-size: 25px;
+        text-decoration: solid;
+
+    }
+}
+
+
+
+
+

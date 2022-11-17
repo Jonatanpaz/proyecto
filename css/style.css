@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+html {
+  font-size: 60%;
+}
+html body {
+  background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.jpg?w=996&t=st=1668627647~exp=1668628247~hmac=59b9129b8cc4df34b7f8a3413b52f79b5cd6823e2d22ccf5aa55382f9d004040);
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.titulo {
+  color: whitesmoke;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.subtitulo {
+  color: whitesmoke;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+}
+.subtitulo i {
+  border: 1px solid green;
+}
+.subtitulo .parrafo {
+  font-size: 25px;
+  text-decoration: solid;
+}
+
+/*Galeria*/
+.galeria {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria h2 {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+
+.imgGaleria {
+  max-width: 100%;
+  border-radius: 2rem;
+  height: auto;
+  padding: 0.4rem;
+  transition: all 0.2s ease;
+  filter: grayscale(50%);
+}
+.imgGaleria:hover {
+  transform: scale(1);
+  filter: 0%;
+}
+
+/*# sourceMappingURL=style.css.map */
